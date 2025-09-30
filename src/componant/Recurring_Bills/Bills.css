@@ -1,0 +1,94 @@
+.recurringbox {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.4fr 1fr;
+    width: 70%;
+    height: 100%;
+    padding: 3%;
+    gap: 2%;
+}
+
+.totalbills {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    padding: 8%;
+    color: white;
+    gap: 30%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 0, 93);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.records {
+    grid-row: 1/5;
+    grid-column: 2;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4%;
+}
+
+.recurringsummery {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 0.5px solid rgb(230, 230, 230);
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+
+.recurringwidget {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    font-size: small;
+}
+
+.selectdiv {
+    width: 20%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.biilsrecordcss {
+    width: 100%;
+    height: 10%;
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    padding: 3%;
+}
+
+.biilsrecordcss span {
+    font-size: 11px;
+}
+
+.recordlist{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.biilsrecordcss h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

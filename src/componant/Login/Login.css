@@ -1,0 +1,47 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+.loginpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 35%;
+  padding: 3%;
+  background-color: white;
+  border: 0.5px solid rgb(222, 222, 222);
+  border-radius: 8px;
+}
+.loginpage button{
+  padding: 3%;
+  border-radius: 5px;
+  width:100%;
+}
