@@ -7,7 +7,7 @@ import Budgets from "./componant/Budgets";
 import Transaction from "./componant/Transaction";
 import { Routes ,Route,BrowserRouter } from "react-router";
 import Login from "./componant/Login";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 
 
 
