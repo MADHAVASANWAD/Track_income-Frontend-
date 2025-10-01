@@ -30,7 +30,7 @@
     ]
   },
   "scripts": {
-    "build": "CI=false npm run build-script"
+    "build": "CI=false npm run build"
   },
   "browserslist": {
     "production": [
